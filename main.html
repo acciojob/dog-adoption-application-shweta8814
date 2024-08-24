@@ -7,13 +7,15 @@
 			<input type="text" id="name" placeholder="Name">
 			<input type="text" id="phone" placeholder="Phone Number">
 			<input type="text" id="address" placeholder="Address">
-			<input type="checkbox" id="chekbox" value="Have you ever lived with a Dog before">
-			<select id="breeds" multiple>
-				<option>Labrador Retriever</option>
-				<option>Beagle</option>
-				<option>Bulldog</option>
+			<label for="dogExperience">Have you ever lived with a Dog before?</label>
+        <input type="checkbox" id="dogExperience"  value="Have you ever lived with a Dog before?">
+        <br><br>
+			<select id="multiSelect" type="select">
+				<option value="labrador">Labrador Retriever</option>
+            <option value="beagle">Beagle</option>
+            <option value="bulldog">Bulldog</option>
 			</select>
-			<input type="submit" value="Submit">
+			<input type="submit" id="submit">
 		</form>
 	</body>
 </html>
